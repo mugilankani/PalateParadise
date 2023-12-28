@@ -1,0 +1,457 @@
+body{
+    background-color: #FFE8C5;
+    font-family: Inter,Arial, Helvetica, sans-serif;
+}
+.parent{
+    padding: 0 2vw 0 2vw;
+    width: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 3vw;
+    margin-right: 3vw; */
+}
+.centerNav{
+    display: flex;
+    justify-content: space-between;
+    gap: 7vw;
+
+}
+
+.navImg{
+    cursor: pointer;
+}
+.rightNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+.plateimg{
+    position: absolute;
+    top: -11vh;
+    left: 60vw;
+    width: 36vw;
+}
+.maincontent{
+    position: relative;
+
+}
+.quote{
+    color: #FE4D4C;
+    /* position: absolute; */
+    margin-top: 15vh;
+    top: 7vh;
+    font-size: 9vh;
+    left: 4vw;
+    width: 55vw;
+}
+.restName{
+    color: #FE4D4C;
+    
+}
+.describtionSentence{
+    
+    /* position: absolute; */
+    top: 38vh;
+    left:4vw ;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    width: 55vw;
+    margin-bottom: 10vh;
+}
+.buttonsofcontent{
+    display: flex;
+    /* position: absolute; */
+    left:4vw ;
+    top: 66vh;
+    align-items: center;
+
+}
+.button{
+    /* padding-left: 2rem; */
+    padding:1rem 1rem 1rem 4rem;
+    border: none;
+    border-radius: 30px;
+    /* margin-right: 20%; */
+    width: 10vw;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.searchNarDiv,whatsappDiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.searchbar{
+    
+    background-color:#FE4D4C ;
+}
+.searchbar::placeholder{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Whatsapp{
+    background-color: #3D3D4E;
+    margin-left: 3vw;
+    padding: 1rem 1rem 1rem 3rem;
+    width: 15vw;
+
+}
+.searchimg{
+    position: relative;
+    left: 3vw;
+    /* top: 0.1vh; */
+}
+.whatsappimg{
+    position: relative;
+    left: 12vh;
+    top: 0.8rem;
+    /* top: 10vh; */
+}
+.specialDish{
+    /* position: relative; */
+    /* margin */
+    
+
+}
+.describtionformobile{
+    display: none;
+}
+.redcolor{
+    width: 20vw;
+    height: 40vh;
+    background-color:#FE4D4C ;
+    border-radius: 1.5rem;
+    margin-bottom: 10rem;
+}
+.todayspecial{
+    /* position: absolute; */
+    top: 90vh;
+    left: 39vw;
+    font-size: 3rem;
+    color: #FE4D4C;
+
+}
+.searchText H2{
+    color: #FE4D4C;
+    font-size: 2.5rem;
+}
+.graycolor{
+    width: 18vw;
+    border-radius: 1.5rem;
+    box-shadow: 7px 7px 10px black;
+    height: 32vh;
+    /* top: 3rem; */
+    /* left: 10%; */
+    margin: 1rem;
+    margin-top: 1rem;
+    background-color: #3D3D4E;
+    /* padding: 1rem; */
+
+}
+.specialDish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todayspecial{
+    color: #FE4D4C;
+    margin-top: 15vh;
+}
+.mugilan{
+    height: 10vh;
+    width: 10vw;
+    background-color: black;
+}
+.dishname{
+    font-size: 2rem;
+    color: white;
+    margin-top: -0.6rem;
+    margin-left: 6rem;
+}
+.dishimg{
+    width: 15vw;
+    margin-left: 1.5rem;
+    margin-top: -2.3rem;
+}
+footer{
+    border: 1px solid black;
+}
+.appendingInfo{
+    
+}
+.ancer{
+    position: relative;
+    cursor: pointer;
+}
+
+.ancer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #FE4D4C;
+    top: 1.5rem;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    
+}
+
+.ancer:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.red{
+    width: 20vw;
+    height: 43vh;
+    background-color:#FE4D4C ;
+    border-radius: 1.5rem;
+    padding-top: 0.3rem;
+    position: relative;
+    margin: 2rem 0;
+    
+}
+.gray{
+    width: 18vw;
+    border-radius: 1.5rem;
+    box-shadow: 7px 7px 10px black;
+    height: 32vh;
+    /* top: 3rem; */
+    /* left: 10%; */
+    margin: 1rem;
+    margin-top: 1rem;
+    background-color: #3D3D4E;
+    /* padding: 1rem; */
+    
+}
+.addDiv{
+    background-color:#3D3D4E ;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    right: 0;
+    height: 5vh;
+    width: 5vw;
+    /* text-align: center; */
+    
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    font-size: 2rem;
+}
+.priceDiv{
+    background-color:#3D3D4E ;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    height: 5vh;
+    width: 5vw;
+    /* text-align: center; */
+    
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    font-size: 2rem;
+}
+.addDiv h5{
+    position: absolute;
+    top: -3vh;
+    left: 0.5vw;
+}
+.price{
+    position: absolute;
+    /* top: -3vh; */
+    bottom: -1.3rem;
+    left: 0;
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    /* left: 0.5vw; */
+    
+}
+.appendingInfo{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 4vw;
+    align-items:center;
+    /* justify-content:right; */
+
+}
+
+@media only screen and (max-width:400px) {
+    .centerNav{
+        display: none;
+    }
+    .rightNav{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        place-content: center;
+    }
+    .quote{
+        font-size: 2rem;
+        margin-top: 3vh;
+    }
+    .appendingInfo{
+        grid-template-columns: 1fr;
+        
+    }
+    .plateimg {
+        position: absolute;
+        top: 0vh;
+        left: 40vw;
+        width: 55vw;
+    }
+    .navbar{
+        /* background-color: #FFD392; */
+    }
+    .logo{
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        
+    }
+    .describtionSentence {
+        /* position: absolute; */
+        
+        letter-spacing: 0.5px;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        width: 40vw;
+        margin-bottom: 10vh;
+        /* display: inline-block; */
+    }
+    .describtionSentencee {
+        /* position: absolute; */
+        
+        letter-spacing: 0.6px;
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        width: 95vw;
+        margin-bottom: 10vh;
+        margin-top: -10vh;
+        /* display: inline-block; */
+    }
+    .searchbar{
+        height: 1.3vh;
+        width: 25vw;
+        margin: 0;
+        padding: 1rem 1rem 1rem 1.5rem;
+        font-size: 1rem;
+    }
+    .Whatsapp{
+        padding: 1.3rem 1.3rem 1.3rem 2rem;
+        font-size: 0.8rem;
+        text-align: center;
+        width: 35vw;
+        height: 1.3vh;
+        margin: 0;
+    }
+    .whatsappimg{
+        position: absolute;
+        margin-left:0;
+        height: 2rem;
+        top: 0.4rem;
+        left: 0.4rem;
+    }
+    .buttonsofcontent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .searchbar::placeholder{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .whatsappDiv{
+        position: relative;
+    }
+    .searchimg{
+        position: absolute;
+        height: 1rem;
+        margin-left: 0.8rem;
+        margin-top: 0.2rem;
+    }
+    .searchbar::placeholder{
+        font-size: 0.9rem;
+        padding: 0;
+    }
+    .describtionformobile{
+        display: inherit;
+    }
+    .describtion{
+        display: none;
+    }
+    .todayspecial{
+        font-size: 2rem;
+    }
+    .redcolor,.red{
+        width: 71vw;
+        height: 42vh;
+    }
+    .graycolor,.gray{
+        width: 62vw;
+    }
+    .dishimg{
+        width: 50vw;
+    }
+    .dishname{
+        margin-left: 16vw;
+        margin-bottom: 0;
+    }
+    .addDiv{
+        font-size: 1rem;
+    }
+    .price{
+        font-size: 1rem;
+    }
+    .red{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: auto;
+    }
+    .redcolor{
+        margin-bottom: 2rem;
+    }
+    .appendingInfo{
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        column-gap: 10vw;
+    }
+    .addDiv{
+        width: 15vw;
+    }
+    .priceDiv{
+        width: 17vw;
+    }
+    .price{
+        font-size: 1rem;
+    }
+    .addDiv h5{
+        top: -2vh;
+        font-size: 1rem;
+        left: 3vw;
+    }
+    .red{
+        height: 44vh;
+
+    }
+    .Whatsapp{
+        text-align: center;
+    }
+}
