@@ -37,6 +37,15 @@ body{
     /* justify-content: space-around; */
     
 }
+
+.des h1{
+    margin: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.price{
+    margin: 0;
+}
 .blackline{
     height: 0.2vh;
     width: 96vw;
@@ -119,6 +128,7 @@ body{
     align-items: center;
     gap: 3vw;
 }
+
 .plateimg{
     position: absolute;
     top: -11vh;
@@ -283,6 +293,7 @@ footer{
     .centerNav {
         display: none;
     }
+    
     .rightNav {
         display: none;
     }
