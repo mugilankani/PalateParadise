@@ -23,6 +23,10 @@ body{
 .todayspecialText{
     margin-top: 20vh;
 }
+.addbutton{
+    text-align: center;
+    width: 15%;
+}
 .red{
     width: 20vw;
     height: 43vh;
@@ -279,7 +283,8 @@ footer{
 @media only screen and (max-width:400px) {
     .price{
         margin: 0;
-        font-size: 0.7rem;
+        width: 13vw;
+        font-size: 0.8rem;
         position: absolute;
         bottom: 0vw;
         left: 0vw;
@@ -289,7 +294,8 @@ footer{
         border-top-right-radius: 1.5rem;
     }
     .addbutton{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        width: 13vw;
         margin: 0;
         position: absolute;
         bottom: 0vw;
@@ -301,7 +307,7 @@ footer{
     }
     .red {
         width: 75vw;
-        height: 42vh;
+        height: 46vh;
     }
     .plateimg{
         top: 0vh;
@@ -333,10 +339,19 @@ footer{
         height: 32vh;
     }
     .des h1, .price {
+
         margin: 0;
+        margin-top: 1.3rem;
+    }
+    .des h1{
+        margin-bottom: 0.6rem;
+        
     }
     .centerNav {
         display: none;
+    }
+    .addbutton{
+        text-align: center;
     }
     
     .rightNav {
