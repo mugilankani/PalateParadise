@@ -37,7 +37,13 @@ body{
     /* justify-content: space-around; */
     
 }
-
+/* .des{
+    position: relative;
+} */
+.red{
+    /* border: 2px solid black; */
+    position: relative;
+}
 .des h1{
     margin: 0px;
     margin-top: 1rem;
@@ -45,6 +51,23 @@ body{
 }
 .price{
     margin: 0;
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    background-color: #3D3D4E;
+    padding: 0.7rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.addbutton{
+    margin: 0;
+    position: absolute;
+    bottom: 0vw;
+    right: 0vw;
+    background-color: #3D3D4E;
+    padding: 0.7rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 .blackline{
     height: 0.2vh;
@@ -254,6 +277,28 @@ footer{
 
 
 @media only screen and (max-width:400px) {
+    .price{
+        margin: 0;
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 0vw;
+        left: 0vw;
+        background-color: #3D3D4E;
+        padding: 0.7rem;
+        border-bottom-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .addbutton{
+        font-size: 0.7rem;
+        margin: 0;
+        position: absolute;
+        bottom: 0vw;
+        right: 0vw;
+        background-color: #3D3D4E;
+        padding: 0.7rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
     .red {
         width: 75vw;
         height: 42vh;
