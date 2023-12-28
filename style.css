@@ -243,135 +243,99 @@ footer{
 
 
 
-
-@media only screen and (max-width:480px) {
-    .red{
+@media only screen and (max-width:400px) {
+    .red {
         width: 75vw;
-        height: 42vh;
-
+        height: 42vhgit add .
+        ;
     }
-    .gray{
+    .gray {
         width: 62vw;
         height: 36vh;
     }
-    .chickenimg{
+    .chickenimg {
         width: 60vw;
-        height:32vh;
+        height: 32vh;
     }
-    .des h1,.price{
+    .des h1, .price {
         margin: 0;
     }
-    .centerNav{
+    .centerNav {
         display: none;
     }
-    .rightNav{
+    .rightNav {
         display: none;
     }
-    .navbar{
+    .navbar {
         display: flex;
         place-content: center;
     }
-    .quote{
+    .quote {
         font-size: 2rem;
         margin-top: 3vh;
     }
-    .appendingInfo{
-        grid-template-columns: 1fr;
-        
-    }
-    .plateimg {
-        position: absolute;
-        top: 0vh;
-        left: 40vw;
-        width: 55vw;
-    }
-    
-    .logo{
-        margin-bottom: 3vh;
-        margin-top: 3vh;
-        
-    }
     .describtionSentence {
-        /* position: absolute; */
-        
         letter-spacing: 0.5px;
         font-size: 0.8rem;
         line-height: 1.5rem;
         width: 40vw;
         margin-bottom: 10vh;
-        /* display: inline-block; */
     }
     .describtionSentencee {
-        /* position: absolute; */
-        
         letter-spacing: 0.6px;
         font-size: 0.8rem;
         line-height: 1.7rem;
         width: 95vw;
         margin-bottom: 10vh;
         margin-top: -10vh;
-        /* display: inline-block; */
     }
-    .searchNarDiv{
+    .searchNarDiv {
         position: relative;
     }
-    .searchbar{
+    .searchbar {
         height: 1.3vh;
         width: 27vw;
         margin: 0;
         padding: 1rem 1rem 1rem 1.5rem;
         font-size: 1rem;
     }
-    .Whatsapp{
-        /* padding: 1.3rem 1.3rem 1.3rem 2rem; */
+    .Whatsapp {
         font-size: 0.8rem;
         text-align: center;
         width: 37vw;
         height: 5vh;
         margin: 0;
     }
-    .whatsappimg{
+    .whatsappimg {
         width: 5vw;
     }
-    /* .whatsappimg{
-        position: absolute;
-        margin-left:0;
-        height: 2rem;
-        top: 0.4rem;
-        left: 0.4rem;
-    } */
-    .buttonsofcontent{
+    .buttonsofcontent {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .searchbar::placeholder{
+    .searchbar::placeholder {
         text-align: center;
         margin: 0;
         padding: 0;
     }
-    
-    .searchimg{
+    .searchimg {
         position: absolute;
         height: 1rem;
         margin-left: -0.4rem;
         margin-top: 0.3rem;
     }
-    .searchbar::placeholder{
+    .searchbar::placeholder {
         font-size: 0.9rem;
         padding: 0;
     }
-    .describtionformobile{
+    .describtionformobile {
         display: inherit;
     }
-    .describtion{
+    .describtion {
         display: none;
     }
-    
-    
-  
-    
-    .Whatsapp{
+    .Whatsapp {
         text-align: center;
     }
 }
