@@ -90,7 +90,7 @@ body{
         overflow-y: hidden;
         white-space: nowrap;
         column-gap: 10vh;
-        margin-left: 5vw;
+        margin-left: 2vw;
         margin-right: 5vw;
 }
 .todayspecialText,.usersearchText{
@@ -248,8 +248,29 @@ footer{
         width: 75vw;
         height: 42vh;
     }
+    .plateimg{
+        top: 0vh;
+        left: 42vw;
+        width: 55vw;
+
+    }
+    .footer h1{
+        font-size: 1rem;
+    }
+    .footer h2{
+        font-size: 0.5rem;
+    }
+    .todayspecialText{
+        margin: 5vh;
+    }
+    .footer{
+        width: 88vw;
+    }
+    .usersearchText{
+        margin-top: 5vh;
+    }
     .gray {
-        width: 62vw;
+        width: 68vw;
         height: 36vh;
     }
     .chickenimg {
@@ -337,4 +358,10 @@ footer{
     .Whatsapp {
         text-align: center;
     }
+    .appendlist{
+        
+        column-gap: 2vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+}
 }
