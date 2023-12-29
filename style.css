@@ -27,6 +27,11 @@ body{
     text-align: center;
     width: 15%;
 }
+.Whatsapp{
+    width: 15vw;
+    /* padding: 2rem; */
+    
+}
 .red{
     width: 20vw;
     height: 43vh;
@@ -36,11 +41,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem;
     /* padding-top: 0rem; */
     /* justify-content: space-around; */
     
 }
+.nameoftherandommeal{
+    width: 20vw;
+}
+
 /* .des{
     position: relative;
 } */
@@ -48,10 +57,14 @@ body{
     /* border: 2px solid black; */
     position: relative;
 }
+.appendlist{
+    display: none;
+}
 .des h1{
     margin: 0px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 .price{
     margin: 0;
@@ -62,6 +75,7 @@ body{
     padding: 0.7rem;
     border-bottom-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    cursor: pointer;
 }
 .addbutton{
     margin: 0;
@@ -80,6 +94,41 @@ body{
     border-radius: 20px;
     margin-bottom: 3vh;
 }
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 .blacklinee{
     height: 0.2vh;
     width: 96vw;
@@ -99,6 +148,9 @@ body{
     align-items: center;
     padding: 1rem;
 }
+.naem{
+    width: 18vw;
+}
 .gray{
     border-radius: 1.5rem;
     height: 32vh;
@@ -107,10 +159,12 @@ body{
     display: flex;
     justify-content: space-around;
     box-shadow: 5px 5px 7px black;
+    padding-top: 0.5rem;
 }
 .chickenimg{
-    width: 14vw;
-    height: 32vh;
+    width: 16vw;
+    height: 30vh;
+    border-radius: 1.5rem;
 }
 .des{
     display: flex;
@@ -219,7 +273,15 @@ body{
     color: white;
     font-size: 1.2rem;
 }
+.addbutton{
+    box-shadow: -4px -4px 5px black;
+    cursor: pointer;
+}
+.price{
+    box-shadow: 4px -4px 5px black;
 
+
+}
 .Whatsapp{
     background-color: #3D3D4E;
     margin-left: 2vw;
@@ -237,7 +299,7 @@ body{
 }
 
 
-.searchText H2{
+.searchText h2{
     color: #FE4D4C;
     font-size: 2.5rem;
 }
