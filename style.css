@@ -20,6 +20,9 @@ body{
     gap: 7vw;
 
 }
+.madeby{
+    cursor: pointer;
+}
 .todayspecialText{
     margin-top: 20vh;
 }
@@ -27,11 +30,11 @@ body{
     text-align: center;
     width: 15%;
 }
-.Whatsapp{
+/* .Whatsapp{
     width: 15vw;
     /* padding: 2rem; */
     
-}
+/* } */ 
 .red{
     width: 20vw;
     height: 43vh;
@@ -205,9 +208,6 @@ body{
     align-items: center;
 }
 
-.whatsappimg{
-    padding: 0 1rem 0 1rem;
-}
 .navImg{
     cursor: pointer;
 }
@@ -293,10 +293,12 @@ body{
 .Whatsapp{
     background-color: #3D3D4E;
     margin-left: 2vw;
-    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    padding: 0.4rem 0.2rem 0.2rem 0.2rem;
     width: fit-content;
     display: flex;
+    height: 5vh;
     align-items: center;
+    width: 9vw;
 
 
 }
