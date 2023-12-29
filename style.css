@@ -107,8 +107,7 @@ body{
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(37, 33, 33, 0.4); 
-    transition: opacity 0.5s ease-in-out; // Add this line
-
+    transition: opacity 0.5s ease-in-out; 
   }
   
   .modal-content {
@@ -117,8 +116,7 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    transition: all 0.5s ease-in-out; // Add this line
-
+    transition: all 0.5s ease-in-out; 
   }
   
   .close {
@@ -126,6 +124,11 @@ body{
     float: right;
     font-size: 28px;
     font-weight: bold;
+  }
+  .madeby{
+    text-decoration: none;
+    cursor: pointer;
+
   }
   
   .close:hover,

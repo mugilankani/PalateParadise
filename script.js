@@ -11,12 +11,31 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
+const Whatsapp = document.querySelector('.Whatsapp')
+Whatsapp.addEventListener('click', ()=>{
+    let whatsappmessage = '"Indulge your senses in a symphony of flavors at Palate Paradise, where every bite is a journey to culinary bliss."'
+    window.open(`http://wa.me/8072241648?text=${whatsappmessage}` ,'_blank')
+})
+const madeby = document.querySelector(".madeby")
+madeby.addEventListener('click',() => {
+    location.href = 'https://www.linkedin.com/in/mugilansakthivel/'
+})
 function getData() {
     fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(data => {
         const meal = data.meals[0];
+        let namemugilankani = meal.strMeal
+        
+        console.log(namemugilankani)
+        // // let des = document.querySelector('.des')
+        // // des.appendChild(namemugilankani)
+
+        const mealNameElement = document.querySelector('#nameoftherandommeal');
+        // mealNameElement = '';
+        // console.log(mealNameElement)
+        mealNameElement.textContent = meal.strMeal
+        // console.log(mealNameElement.innerHTML)
 
         console.log(meal)
         const imageElement = document.querySelector('.chickenimg');
@@ -71,7 +90,7 @@ foodSearch.addEventListener("keydown", (event) => {
                     </div>
                     <div class="des">
                         <h1>${meal.strMeal}</h1>
-                        <h3 class="price">${meal.strCategory}</h3>
+                        <h3 class="price">YOUT</h3>
                         <h3 class="addbutton">WEB</h3>
                     </div>
                 `;
