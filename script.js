@@ -25,6 +25,11 @@ function getData() {
         youtube.addEventListener('click', () => {
             location.href =`${meal.strYoutube}`
         })
+        const sourceElement = document.querySelector('.addbutton')
+        sourceElement.addEventListener('click',() => {
+            location.href =`${meal.strSource}`
+
+        })
 
         imageElement.addEventListener('click', () => {
             document.getElementById('modalText').innerText = getIngredients(meal).join(', ');
@@ -50,6 +55,7 @@ const foodSearch = document.querySelector('.searchbar');
 foodSearch.addEventListener("keydown", (event) => {
     if(event.key == 'Enter'){
         let foodName = foodSearch.value;
+        document.querySelector('.usersearchText').innerHTML= foodName
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${foodName}`)
         .then(response => response.json())
         .then(data => {
@@ -66,7 +72,7 @@ foodSearch.addEventListener("keydown", (event) => {
                     <div class="des">
                         <h1>${meal.strMeal}</h1>
                         <h3 class="price">${meal.strCategory}</h3>
-                        <h3 class="addbutton">ADD</h3>
+                        <h3 class="addbutton">WEB</h3>
                     </div>
                 `;
                 appendList.appendChild(mealDiv);
@@ -80,6 +86,12 @@ foodSearch.addEventListener("keydown", (event) => {
                     event.stopPropagation(); 
                     window.location.href = meal.strYoutube; 
                 });
+                const sourceElement = mealDiv.querySelector('.addbutton')
+                sourceElement.addEventListener('click',(event) => {
+                    event.stopPropagation(); 
+                location.href =`${meal.strSource}`
+                })
+
             });
             appendList.scrollIntoView({behavior: "smooth"});
         })
